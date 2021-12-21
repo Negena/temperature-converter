@@ -1,0 +1,25 @@
+  *{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+  }
+  body{
+   text-transform: uppercase;
+  }
+  .greet{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+  }
+ select, input {
+   padding: 20px;
+   margin-left: 10vw;
+   margin-top: 20px;
+   width: 80vw;
+   font-size: 1.5rem;
+ }
